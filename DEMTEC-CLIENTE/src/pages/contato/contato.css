@@ -1,0 +1,61 @@
+#titipren{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #00BF63;
+    text-align: center;
+    width: 100%;
+    margin-top: 4%;
+}
+
+form .flexform{
+    width: 70%;
+    display: flex;
+}
+
+form  .flexform p{
+    font-size: 28px;
+    width: 500px;
+    margin-top: 1.4%;
+    font-family: 'Heebo', sans-serif;
+} 
+
+form .flexform input{
+    background-color: transparent;
+    color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    border-color: #00BF63;
+    height: 60px; 
+    width: 500px;
+    font-size: 18px;
+    margin-left: 4%;
+    outline: none;
+    transition: border-color 0.3s, background-color 0.3s,
+}
+
+form .flexform input:focus{
+    border-color: none;
+    background-color: none;
+}
+
+#btnform{
+    background-color: #00BF63;
+    width: 300px;
+    height: 55px;
+    border-color: #00BF63 ;
+    border-width: 1px;
+    font-size: 24px;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    margin-top: 5%;
+    border-radius: 25px;
+    margin-left: 23%;   
+}
+
+#enviacontato{
+    margin-top: 9.4%;
+    margin-left: 25%;
+    margin-bottom: 7.7%;
+}

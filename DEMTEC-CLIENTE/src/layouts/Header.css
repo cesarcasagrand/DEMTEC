@@ -1,0 +1,127 @@
+.verde {
+  background-color: #00BF63;
+  height: 30px;
+  width: 100%;
+}
+
+#menu {
+  width: 100%;
+  height: 150px;
+  background-color: #f3efef;
+}
+
+#menuflex {
+  display: grid;
+  grid-template-columns: 140px 1620px 140px;
+  width: 100px;
+}
+
+#itensmenu ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+#itensmenu li {
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#home {
+  margin-right: 2%;
+}
+
+#func {
+  margin-right: 2%;
+}
+
+#sobre {
+  margin-right: 2%;
+}
+
+#seg {
+  margin-right: 2%;
+}
+
+#itensmenu ul li a { 
+  color: black;
+}
+
+#itensmenu ul li a.active { 
+  color: #00BF63;
+}
+
+#svg {
+  position: relative;
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#svg svg {
+  width: 30px;
+  transition: .3s;
+}
+
+#svg svg:hover {
+  fill: #1872a3;
+}
+
+#dropmenu {
+  display: none;
+  position: absolute;
+  top: calc(100% - 30px); /* Subindo um pouco o dropdown */
+  right: 0;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  width: 350px; /* Aumentando a largura do dropdown */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translateY(10px);
+}
+
+#dropmenu.show {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Estilo do perfil e lista de itens no dropdown */
+#fotoperfil {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  margin: 10px auto;
+  border: 2px solid #00BF63;
+}
+
+#droplista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#droplista li {
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#droplista li:hover {
+  background-color: #f0f0f0;
+}
+
+#libaixo {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 10px;
+  margin-top: 10px;
+}
